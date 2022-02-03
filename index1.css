@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 3.5fr;
+    grid-template-rows:100%;
+    background-color: aqua;
+}
+
+.sidebar-left {
+    border-right: 1px solid purple;
+    background:lightcyan;
+    height: 100%;
+}
+
+.sidebar-left .div-yt {
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Main  Part*/
+.amin{
+    height: 100%;
+    display: grid;
+    width: 100%;
+
+}
