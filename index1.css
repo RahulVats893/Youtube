@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html,body {
     height: 100%;
 }
 
@@ -33,9 +32,62 @@ body {
 
 
 /* Main  Part*/
-.amin{
-    height: 100%;
-    display: grid;
-    width: 100%;
-
+.main-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+.mc1{
+    display:grid;
 }
+  .mc1 .search-container {
+    float: left;
+  }
+  .mc1 input[type=text] {
+    padding: 6px;
+    outline: auto;
+    margin: 26px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  .search-container button {
+    /* float: left; */
+    outline: auto;
+    flex-direction: column;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-container img{
+      padding: 5px;
+      float: right;
+      border-radius: 50%;
+  }
+
+  .db{
+    /* flex-direction: column; */
+    padding: 20px;
+    float: right;
+  }
+
+
+
+  /* main mc-2 */
+
+  .mc2{
+      display: flex;
+      justify-content: space-between;
+      border-radius: 50%;
+  }
+
+ /* main mc-3 */
+ 
+  
